@@ -30,6 +30,7 @@ You can go four directions: forward, backward, right, left
 valid_actions = ["forward", "backward", "left", "right"]
 # print a list a valid actions before user input.
 
+
 # This defines the menu for the actions
 
 
@@ -38,6 +39,7 @@ def menu():
     """)
         for action in valid_actions:
             print(f"* {action}")
+
 
 # This defines the first action of the game
 
@@ -65,7 +67,6 @@ def action_1():
             action_1()
 
 # This defines the second action by the user
-
 
 def action_2():
         print("""
